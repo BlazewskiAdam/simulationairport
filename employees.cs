@@ -1,51 +1,45 @@
 public abstract class Employee
 {
-    protected Employee(string name, decimal salary)
-    {
-        this.name = name;
-        this.salary = salary;
-    }
+    int counter = 1;
+    public string name { get; protected set; }
+    public decimal salary { get; protected set; }
+    private string Id { get; set; }
 
-    public string name { get; }
-    public decimal salary { get; }  
+    public Employee()
+    {
+        Id = "AW" + counter;
+        counter++;
+    }
 }
 
 public class SecurityWorker : Employee
 {
-    public SecurityWorker(string name, decimal salary) : base(name, salary)
+    private const decimal DefaultSalary = 3000;
+    public SecurityWorker(string name) : base()
     {
-        
+        this.name = name;
+        salary = DefaultSalary;
     }
-
-    public void InspectPassenger(Passenger passenger)
-    {
-
-    }
-
 }
 
 public class CheckInWorker : Employee
 {
-    public CheckInWorker(string name, decimal salary) : base(name, salary)
+    private const decimal DefaultSalary = 3000;
+    public CheckInWorker(string name) :base()
     {
-        
-    }
-    public void CheckInPassenger(Passenger passenger)
-    {
-
+        this.name = name;
+        salary = DefaultSalary;
     }
 }
 
 public class Pilot : Employee
 {
-    public Pilot(string name, decimal salary) : base(name, salary)
+    private const decimal DefaultSalary = 4500;
+    public Pilot(string name) : base()
     {
-
-    }
-    
-    public void FlyPlane()
-    {
-
+        this.name = name;
+        salary = DefaultSalary;
     }
 
+    public Pilot AssignedPilot { get; set; }
 }

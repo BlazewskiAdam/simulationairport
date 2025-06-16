@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lotnisko")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d7e768408c5348b63092055db96d3856c841865")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd31c0be0605e6229f332d4b6b861efdb2340d22")]
 [assembly: System.Reflection.AssemblyProductAttribute("lotnisko")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lotnisko")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

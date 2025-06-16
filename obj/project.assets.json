@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adamb\\Documents\\DEV_LEARNING\\project-laboratoria\\folder\\AirportSimulation\\Lotnisko.csproj",
+      "projectUniqueName": "C:\\Users\\adamb\\Documents\\DEV_LEARNING\\project-laboratoria\\folder\\AiirtportSimulation\\Lotnisko.csproj",
       "projectName": "lotnisko",
-      "projectPath": "C:\\Users\\adamb\\Documents\\DEV_LEARNING\\project-laboratoria\\folder\\AirportSimulation\\Lotnisko.csproj",
+      "projectPath": "C:\\Users\\adamb\\Documents\\DEV_LEARNING\\project-laboratoria\\folder\\AiirtportSimulation\\Lotnisko.csproj",
       "packagesPath": "C:\\Users\\adamb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adamb\\Documents\\DEV_LEARNING\\project-laboratoria\\folder\\AirportSimulation\\obj\\",
+      "outputPath": "C:\\Users\\adamb\\Documents\\DEV_LEARNING\\project-laboratoria\\folder\\AiirtportSimulation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adamb\\AppData\\Roaming\\NuGet\\NuGet.Config"
